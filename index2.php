@@ -6,7 +6,7 @@
   </head>
   <body>
 
-  <h1><a href="http://qxd05.prie-net.de">Admin Center Login</a></h1>
+  <h1><a href="index.php">Admin Center Login</a></h1>
   <form action="index.php" method="get">
     <label for="iud">Username</label>
     <input type="text" name="username" id="iud">
@@ -17,7 +17,12 @@
   </form>
 <?
 if(isset($_GET['username']) && isset($_GET['password'])){
+
+  if(($_GET['username'] == "admin") && ($_GET['password'] == "H5o_ctF!ftw")){
     echo("Welcome!");
+  }
 }
 ?>
+
+</body>
 </html>
