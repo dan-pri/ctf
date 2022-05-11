@@ -5,7 +5,7 @@
 name: "{{unencrypted}}"
 author: "Daniel Prietzel"
 category: forensic
-description: Browse the Wireshark dump and see if there's anything interesting in there
+description: Browse the Wireshark dump and see if there's anything interesting in there.
 value: 100
 type: standard
 
@@ -34,7 +34,7 @@ host: null
 # Optional settings
 
 # connection_info is used to provide a link, hostname, or instructions on how to connect to a challenge
-#connection_info: nc hostname 12345
+connection_info: http://forensic.ctf.hs-offenburg.de:4000
 
 # healthcheck is a tool/script used to check a challenge
 # If connection_info was provided to CTFd when the challenge was installed, it will be passed to the healthcheck script:
