@@ -17,7 +17,7 @@
 <?
 if(isset($_POST['username']) && isset($_POST['password'])){
 
-  if(($_POST['username'] == "admin") && ($_POST['password'] == "H5o_ctF!ftw")){
+  if(($_POST['username'] === "admin") && ($_POST['password'] === "H5o_ctF!ftw")){
       echo("Welcome !<br><br>");
       echo("flag_5ecc8fd983a0ffa361dc1a55aab5120bc4449fd5_");
   }
