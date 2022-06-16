@@ -78,6 +78,7 @@ files:
 # Accepts dictionaries or strings
 hints:
     - Filter for the right service
+    - Check the used Port
 
 # Requirements are used to make a challenge require another challenge to be
 # solved before being available.
